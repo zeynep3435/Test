@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamba</title>
+   
+</head>
+<body>
+        
+    <img id="kapali" src="kapali.png">
+
+    <button id="ac">Aç</button>
+    <button id="kapa">Kapat</button>
+
+    <script>
+        document.getElementById("ac").onclick = function(){
+            document.getElementById("kapali").src = "acik.png";
+        }
+        //okuyarak git 
+        //dokümanın içinde ıd i ac olan butona tıklandığında kapalı olan fotoyu açık.fotoile değiştir demek
+        document.getElementById("kapa").onclick = function(){
+            document.getElementById("kapali").src = "kapali.png";
+        }
+        //fotoğraflarda kaynak src olur
+        //dökümsnın içinde ıd i kapa olan butona basıldığında kapalı olan fotoyu kapalıya çevir
+        
+       
+    </script>
+</body>
+</html>
